@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "blog",
+        "1": "productivity",
+        "2": "image"
+    },
+    "demo_page": "plugin---image-fit",
+    "description": "This plugin allows you to easily render an image on your Bubble page. You can customize how the image fits within its container by selecting different object-fit options (contain, cover, fill, or scale-down) and apply a grayscale filter if needed. It’s perfect for dynamically displaying images where direct URLs are not available or when working with inline image data.",
+    "image": "//meta-q.cdn.bubble.io/f1742387962199x357778350728806600/img.svg",
+    "license": "open_source",
+    "name": "Image Fit Your Feel",
+    "plugin_instructions": "Usage Instructions\nAdd the Plugin Element:\nDrag and drop the plugin element onto your Bubble page.\n\nConfigure the Image Source:\n\nProvide an image via the image property.\n\nCustomize Image Display:\n\nObject-Fit: Choose how the image should be scaled using the object_fit property. Options include:\n1: Contain\n2: Cover\n3: Fill\n4: Scale-down\n0: None (if none of the above are selected)\nGrayscale Filter: Adjust the grayScale property to apply a grayscale effect (0% - 100%)."
+}

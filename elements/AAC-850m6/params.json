@@ -1,0 +1,53 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "add_large_file_upload_properties": false,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 144,
+        "width": 144
+    },
+    "display": "Image Fit",
+    "fields": {
+        "AAD": {
+            "caption": "Image",
+            "doc": "Upload your image.",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 0,
+            "value": "image"
+        },
+        "AAE": {
+            "caption": "Gray Scale",
+            "default_val": 0,
+            "doc": "Sets the intensity of the grayscale filter applied to the image (0-100%).",
+            "editor": "DynamicValue",
+            "name": "gray_scale",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "Object Fit",
+            "default_val": 1,
+            "doc": "0- none, 1- contain, 2- cover, 3- fill, 4- scale-down",
+            "editor": "DynamicValue",
+            "name": "object_fit",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "icon": "ion-image",
+    "platform_type": "web",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "support_autobinding": false
+}
